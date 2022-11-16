@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+
+
+}
+body{
+    background: #181511;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding:10px 0 ;
+}
+ .bg-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    backdrop-filter: blur(10px);
+
+ }
+.navbar{
+    padding:28px  ;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-lef{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.nav-lef h1{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFAE2B;
+}
+.nav-lef h2{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFAE2B;
+}    
+.list li{
+    display: inline-block;
+    align-items: center;
+}
+.list li a{
+    text-decoration: none;
+    margin-right: 28px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ACA592;
+}
+.sit-btn{
+    padding: 15px 25px;
+    background: transparent;
+    color: #FFAE2B;
+    border: 1px solid #FFAE2B ;
+}
+.hero{
+    background-image: url(../img/IMAGE\ \(10\).png);
+    width: 100%;
+    height: 602px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 135px;
+}
+.hero-tex{
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   transform: translate(-50%);
+   text-align: center;
+}
+.hero-tex h5{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFAE2B;
+    margin-bottom: 15px;
+}
+.hero-tex h1{
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 80px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+}
+.hero-btn{
+    padding: 14px 24px;
+    background: #FFAE2B;
+    border: none;
+}
+.main-tex{
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 5%;
+}
+.main-tex h5{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #ACA592;
+    margin-bottom: 8px;
+}
+.main-tex h1{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFAE2B;
+    margin-bottom: 60px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    transition: .5;
+
+}
+.card{
+    border:1px solid #ACA592 ;
+    padding: 15px 15px 41px 15px ;
+}
+.cards :hover{
+    transform: scale(1.1);
+}
+    
+
+    
+.card h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.portifolyo{
+    margin-top: 120px;
+    margin-bottom: 119px;
+    background-image: url(../img/IMAGE\ \(32\).png);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+.contakt-tex{
+    margin-left: 5%;
+    text-align: center;
+}
+.contakt-tex h5{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #ACA592;
+    margin-bottom: 10px;
+}
+.contakt-tex h1{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFAE2B;
+    margin-bottom: 59px;
+}
+
+
+.contakt{
+    margin-bottom: 140px;
+    display: flex;
+    /* align-items: center; */
+}
+.contakt-paij{
+    padding: 61px;
+    border: 1px solid  #ACA592;
+}
+.contakt-paij img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.contakt-paij h1{
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 40px;
+    color: #FFAE2B;
+    margin-bottom: 8px;
+}
+.contakt-paij h4{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #ACA592;
+    margin-bottom: 8px;
+}
+.contakt-paij p{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    color: #ACA592;
+}
+.paij1{
+    padding: 61px 61px 60px 61px ;
+    width: 400px;
+}
+.paij2{
+    width: 400px;
+    transform: translateY(5px);
+}
+.paij3{
+    width: 400px;
+    transform: translateY(10px);
+}
+.templeyt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+    gap: 328px;
+}
+.templey-card{
+    background-image: url(../img/templey1.png) ;
+    width: 217px;
+    height: 240px;
+}
+.templey-card img{
+    margin-left: 35%;
+    transform: translateY(-30px);
+}
+.card2{
+    background-image: url(../img/tenpley2.png) ;
+    width: 217px;
+    height: 240px;
+}
+.card3{
+    background-image: url(../img/tenpley.png) ;
+    width: 217px;
+    height: 240px;
+}
+.card4{
+    background-image: url(..//img/tanplaey.png) ;
+    width: 217px;
+    height: 240px;
+}
+
+.templey-puj{
+    display:flex;
+    align-items: center;
+}
+.fotoor{
+   text-align: center;
+   margin-bottom: 82px;
+}
+.fotoor h1{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFAE2B;
+}
+.fotoor p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    color: #ACA592
+}
+.bg-footr{
+    text-align: center;
+}
+.bg-footr h2{
+    margin-top: 35px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ACA592;
+}
+.img {
+    margin-top: 20px;
+    margin-bottom: 39px;
+} 
+.fot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fot h3{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #ACA592
+}
+.fot span{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    color: #FFAE2B
+}
+.list-fot li{
+    display: inline-block; 
+    gap: 11px;
+}
+.list-fot li a{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 30px;
+    color: #FFAE2B;
+    text-decoration: none-;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
